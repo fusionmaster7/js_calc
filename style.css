@@ -5,6 +5,7 @@ body{
 h1{
   font-family: 'Times New Roman';
   text-align: center;
+  color: darkblue;
 }
 div.container{
   text-align: center;
