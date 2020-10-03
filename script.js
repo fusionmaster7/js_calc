@@ -1,12 +1,17 @@
 document.getElementById('data').value = 0;
+
+//input function
 function input(n){
   var num = document.getElementById('data').value;
   num = num*10 + n;
   document.getElementById('data').value = num;
 }
+
 function input_op(c){
   document.getElementById('data').value = c;
 }
+
+//main calculation function
 function confirm(){
   if(ctr == 0){
     num1 = document.getElementById('data').value;
@@ -36,6 +41,7 @@ function confirm(){
     }
   }
 }
+
 function reset(){
   document.getElementById('data').value = 0;
 }
