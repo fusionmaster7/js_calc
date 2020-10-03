@@ -1,11 +1,11 @@
 body{
-  background-color: aquamarine;
+  background-color: #222;
 }
 
 h1{
   font-family: 'Times New Roman';
   text-align: center;
-  color: darkblue;
+  color: #1ca9c9;
 }
 div.container{
   text-align: center;
